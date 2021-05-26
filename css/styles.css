@@ -1,5 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.nav {
+    width: 100%;
+    background: white;
+    line-height: 75px;
+    padding: 0 100px;
+    z-index: -1;
+}
+nav .logo img {
+    float: left;
+    margin-left: -100px;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 32px;
+    margin-left: 70px;
+}
 
-        
+   
 .container  {
     margin: 0 auto;
     width: 1300px;
@@ -15,7 +45,10 @@ button {
      justify-content: space-around;
      margin: 0 auto;
     }
-header{ border-bottom: 1px dashed black;}
+header{ border-bottom: 1px dashed black;
+        padding-bottom: 20px;
+        line-height: 20px;}
+       
 .strategy{
     border-bottom: 1px dashed black;
     padding-bottom: 10px;
@@ -33,12 +66,14 @@ header{ border-bottom: 1px dashed black;}
     border-bottom: 1px dashed black;
     padding-bottom: 10px;
 }
+
 footer   {
      background: black;
-     padding: 20px;          
+     padding: 20px;    
+      margin-top: 15px;      
 }
 footer nav a {
     color: white;
     text-decoration: none;
-   
+   margin: 0 20px;
 }
