@@ -1,0 +1,44 @@
+
+        
+.container  {
+    margin: 0 auto;
+    width: 1300px;
+
+}
+button {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px 7px;
+}
+.container2 {
+     display: flex;
+     justify-content: space-around;
+     margin: 0 auto;
+    }
+header{ border-bottom: 1px dashed black;}
+.strategy{
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+.place {
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+.how {
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+
+}
+.collabo {
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+footer   {
+     background: black;
+     padding: 20px;          
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+   
+}
